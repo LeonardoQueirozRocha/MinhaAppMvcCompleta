@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "te/qo/E78q0AtWqayNPB6Ill1ttIoVGlunf21THAqxmnaQveK4FRngb1dhHBJ4gZw3zWGLR3+qedmmCaCXGW4Q==",
+  "dgSpecHash": "nAmNtaZn4uhPimcqhMsYmOVZMtVkg7shRaOvJqVhDwtsVrSFylp3mOh9AkN9rBBJ8/YWqtHsXvtHG56hp6Q21g==",
   "success": true,
   "projectFilePath": "C:\\Users\\LeonardoQR\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LeonardoQR\\.nuget\\packages\\automapper\\8.1.0\\automapper.8.1.0.nupkg.sha512",
+    "C:\\Users\\LeonardoQR\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.0\\automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512",
     "C:\\Users\\LeonardoQR\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
