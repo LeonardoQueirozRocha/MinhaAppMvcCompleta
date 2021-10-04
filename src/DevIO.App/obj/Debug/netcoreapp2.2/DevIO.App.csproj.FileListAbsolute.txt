@@ -37,3 +37,13 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.pdb
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.genruntimeconfig.cache
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Create.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Delete.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Details.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Edit.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Index.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Index.cshtml.g.cs
