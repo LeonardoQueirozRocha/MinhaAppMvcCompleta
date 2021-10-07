@@ -11,7 +11,6 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp2.2\DevIO.Data.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp2.2\DevIO.Data.pdb
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
-C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.csprojAssemblyReference.cache
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.AssemblyInfoInputs.cache
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.AssemblyInfo.cs
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.csproj.CoreCompileInputs.cache
@@ -49,3 +48,5 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Index.cshtml.g.cs
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.csproj.AssemblyReference.cache
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.GeneratedMSBuildEditorConfig.editorconfig
