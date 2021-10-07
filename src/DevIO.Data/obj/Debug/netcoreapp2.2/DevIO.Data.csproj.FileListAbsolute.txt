@@ -6,7 +6,6 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\ne
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.AssemblyInfoInputs.cache
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.AssemblyInfo.cs
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CoreCompileInputs.cache
-C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CopyComplete
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.pdb
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.AssemblyReference.cache
