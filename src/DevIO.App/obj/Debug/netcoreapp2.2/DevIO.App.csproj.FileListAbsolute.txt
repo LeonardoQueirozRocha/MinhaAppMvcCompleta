@@ -52,3 +52,4 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.pdb
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.genruntimeconfig.cache
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\_AtualizarEndereco.cshtml.g.cs
