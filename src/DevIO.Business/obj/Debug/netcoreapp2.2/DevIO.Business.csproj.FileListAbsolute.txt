@@ -7,3 +7,4 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debu
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.CoreCompileInputs.cache
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.pdb
+C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.AssemblyReference.cache
