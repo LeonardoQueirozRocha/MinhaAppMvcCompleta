@@ -10,4 +10,3 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\ne
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CoreCompileInputs.cache
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.pdb
-C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CopyComplete
