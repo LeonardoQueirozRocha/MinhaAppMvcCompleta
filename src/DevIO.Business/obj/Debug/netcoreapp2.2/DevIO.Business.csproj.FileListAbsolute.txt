@@ -8,3 +8,13 @@ C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debu
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.pdb
 C:\Users\LeonardoQR\source\repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.AssemblyReference.cache
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.deps.json
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.dll
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.AssemblyReference.cache
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.pdb
