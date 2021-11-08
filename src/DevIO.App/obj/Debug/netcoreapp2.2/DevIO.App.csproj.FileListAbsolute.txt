@@ -114,3 +114,4 @@ C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcorea
 C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.dll
 C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.pdb
 C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\DevIO.App.genruntimeconfig.cache
+C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp2.2\web.config
