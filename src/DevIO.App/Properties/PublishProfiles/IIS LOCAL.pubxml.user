@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2021-11-10T00:21:34.5412820Z;True|2021-11-09T21:20:11.4981284-03:00;True|2021-11-09T21:19:33.0760651-03:00;True|2021-11-09T20:56:44.6181622-03:00;True|2021-11-09T20:55:14.8700498-03:00;True|2021-11-09T20:45:37.4002728-03:00;True|2021-11-09T20:43:51.3884378-03:00;True|2021-11-09T20:31:31.0115698-03:00;True|2021-11-09T20:19:49.3177285-03:00;True|2021-11-09T20:18:59.9626849-03:00;True|2021-11-09T20:07:27.0467686-03:00;True|2021-11-09T19:57:36.6720111-03:00;True|2021-11-09T15:17:59.9611960-03:00;True|2021-11-09T15:06:55.0782413-03:00;True|2021-11-09T15:02:58.9652901-03:00;True|2021-11-09T14:59:59.7873253-03:00;True|2021-11-09T14:55:17.9593997-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>LEONARDO-PC\SQLEXPRESS%3bDatabase=MinhaAppMvcCompleta%3b User Id=curso%3b Password=curso%3b Trusted_Connection=True%3b MultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
