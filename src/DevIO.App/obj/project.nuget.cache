@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NIbQFI1JR6wLbyTRhTGW4WkdV9JoznZFNjUku84e8Zfn/5vqLFJWDxM42cD07c4G4x7TDRDSPvSjkwIYTFJDuA==",
+  "dgSpecHash": "7a9Sp7GMuKHQr/c3xN/8tGUJAXB35DbA7RglTl9LAcP8x3lsNgNg8XsFqDCojtc3vdo5MhSNysnteErJKwteeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
+  "projectFilePath": "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\automapper\\8.1.0\\automapper.8.1.0.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.0\\automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512",

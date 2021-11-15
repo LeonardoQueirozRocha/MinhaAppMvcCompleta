@@ -13192,11 +13192,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
       "projectName": "DevIO.App",
-      "projectPath": "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
+      "projectPath": "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\obj\\",
+      "outputPath": "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13216,8 +13216,8 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
-              "projectPath": "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
+            "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+              "projectPath": "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
             }
           }
         }

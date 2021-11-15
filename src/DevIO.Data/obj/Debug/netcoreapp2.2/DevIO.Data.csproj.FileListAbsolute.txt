@@ -22,3 +22,4 @@ C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcore
 C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CoreCompileInputs.cache
 C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.dll
 C:\Users\leona\Source\Repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.pdb
+C:\Users\leona\source\repos\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CopyComplete

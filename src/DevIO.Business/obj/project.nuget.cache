@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/XSp1quF/DYFWiVrWthR0y7YHxFDa1v+u8cf4DOfpMHOd+w/FACehMbsaxnxKnvg41IZmN3lttAEbmISQk7NVw==",
+  "dgSpecHash": "3f37jsTbnFnw/QaqpjtnEFujdOBZy1yr6SucRzR+XRN9zoB829eA1C3NmGHRagFCAKQuQrBPaB6G7qVSMSFzLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leona\\Source\\Repos\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "C:\\Users\\leona\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\fluentvalidation\\8.3.0\\fluentvalidation.8.3.0.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
