@@ -15,13 +15,16 @@ namespace DevIO.Data.Context
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
 
-            var properties = modelBuilder.Model.GetEntityTypes().SelectMany(entity => entity.GetProperties()).Where(property => property.ClrType == typeof(string));
+            foreach (var property in modelBuilder.Model
+                .GetEntityTypes()
+                .SelectMany(entity => entity.GetProperties())
+                .Where(property => property.ClrType == typeof(string))) 
+                property.SetColumnType("VARCHAR(100)");
 
-            foreach (var property in properties) property.SetColumnType("VARCHAR(100)");
-
-            var relationships = modelBuilder.Model.GetEntityTypes().SelectMany(entity => entity.GetForeignKeys());
-
-            foreach (var relatoinship in relationships) relatoinship.DeleteBehavior = DeleteBehavior.ClientSetNull;
+            foreach (var relatoinship in modelBuilder.Model
+                .GetEntityTypes()
+                .SelectMany(entity => entity.GetForeignKeys())) 
+                relatoinship.DeleteBehavior = DeleteBehavior.ClientSetNull;
 
             base.OnModelCreating(modelBuilder);
         }
