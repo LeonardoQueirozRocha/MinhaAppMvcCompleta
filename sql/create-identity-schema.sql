@@ -111,7 +111,7 @@ CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHER
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'00000000000000_CreateIdentitySchema', N'6.0.10');
+VALUES (N'00000000000000_CreateIdentitySchema', N'6.0.12');
 GO
 
 COMMIT;

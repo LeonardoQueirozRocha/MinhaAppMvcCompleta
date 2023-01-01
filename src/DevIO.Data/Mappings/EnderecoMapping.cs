@@ -12,30 +12,30 @@ namespace DevIO.Data.Mappings
 
             builder.Property(endereco => endereco.Logradouro)
                 .IsRequired()
-                .HasColumnType("VARCHAR(200)");
+                .HasColumnType("varchar(200)");
 
             builder.Property(endereco => endereco.Numero)
                 .IsRequired()
-                .HasColumnType("VARCHAR(50)");
+                .HasColumnType("varchar(50)");
 
             builder.Property(endereco => endereco.Cep)
                 .IsRequired()
-                .HasColumnType("VARCHAR(8)");
+                .HasColumnType("varchar(8)");
 
             builder.Property(endereco => endereco.Complemento)
-                .HasColumnType("VARCHAR(250)");
+                .HasColumnType("varchar(250)");
 
             builder.Property(endereco => endereco.Bairro)
                 .IsRequired()
-                .HasColumnType("VARCHAR(100)");
+                .HasColumnType("varchar(100)");
 
             builder.Property(endereco => endereco.Cidade)
                 .IsRequired()
-                .HasColumnType("VARCHAR(100)");
+                .HasColumnType("varchar(100)");
 
             builder.Property(endereco => endereco.Estado)
                 .IsRequired()
-                .HasColumnType("VARCHAR(50)");
+                .HasColumnType("varchar(50)");
 
             builder.ToTable("Enderecos");
         }

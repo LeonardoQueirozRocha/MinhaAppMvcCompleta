@@ -13,8 +13,8 @@ GO
 
 CREATE TABLE [Fornecedores] (
     [Id] uniqueidentifier NOT NULL,
-    [Nome] VARCHAR(100) NOT NULL,
-    [Documento] VARCHAR(100) NOT NULL,
+    [Nome] varchar(200) NOT NULL,
+    [Documento] varchar(14) NOT NULL,
     [TipoFornecedor] int NOT NULL,
     [Ativo] bit NOT NULL,
     CONSTRAINT [PK_Fornecedores] PRIMARY KEY ([Id])
@@ -24,13 +24,13 @@ GO
 CREATE TABLE [Enderecos] (
     [Id] uniqueidentifier NOT NULL,
     [FornecedorId] uniqueidentifier NOT NULL,
-    [Logradouro] VARCHAR(100) NOT NULL,
-    [Numero] VARCHAR(100) NOT NULL,
-    [Complemento] VARCHAR(100) NULL,
-    [Cep] VARCHAR(100) NOT NULL,
-    [Bairro] VARCHAR(100) NOT NULL,
-    [Cidade] VARCHAR(100) NOT NULL,
-    [Estado] VARCHAR(100) NOT NULL,
+    [Logradouro] varchar(200) NOT NULL,
+    [Numero] varchar(50) NOT NULL,
+    [Complemento] varchar(250) NULL,
+    [Cep] varchar(8) NOT NULL,
+    [Bairro] varchar(100) NOT NULL,
+    [Cidade] varchar(100) NOT NULL,
+    [Estado] varchar(50) NOT NULL,
     CONSTRAINT [PK_Enderecos] PRIMARY KEY ([Id]),
     CONSTRAINT [FK_Enderecos_Fornecedores_FornecedorId] FOREIGN KEY ([FornecedorId]) REFERENCES [Fornecedores] ([Id])
 );
@@ -39,9 +39,9 @@ GO
 CREATE TABLE [Produtos] (
     [Id] uniqueidentifier NOT NULL,
     [FornecedorId] uniqueidentifier NOT NULL,
-    [Nome] VARCHAR(100) NOT NULL,
-    [Descricao] VARCHAR(100) NOT NULL,
-    [Imagem] VARCHAR(100) NOT NULL,
+    [Nome] varchar(200) NOT NULL,
+    [Descricao] varchar(1000) NOT NULL,
+    [Imagem] varchar(100) NOT NULL,
     [Valor] decimal(18,2) NOT NULL,
     [DataCadastro] datetime2 NOT NULL,
     [Ativo] bit NOT NULL,
@@ -57,7 +57,7 @@ CREATE INDEX [IX_Produtos_FornecedorId] ON [Produtos] ([FornecedorId]);
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'20221230015642_v1', N'6.0.10');
+VALUES (N'20230101170526_v1', N'6.0.12');
 GO
 
 COMMIT;

@@ -12,11 +12,11 @@ namespace DevIO.Data.Mappings
 
             builder.Property(fornecedor => fornecedor.Nome)
                 .IsRequired()
-                .HasColumnType("NVARCHAR(200)");
+                .HasColumnType("varchar(200)");
 
             builder.Property(fornecedor => fornecedor.Documento)
                 .IsRequired()
-                .HasColumnType("NVARCHAR(14)");
+                .HasColumnType("varchar(14)");
 
             // 1 : 1 => Fornecedor : Endereco
             builder.HasOne(fornecedor => fornecedor.Endereco)
