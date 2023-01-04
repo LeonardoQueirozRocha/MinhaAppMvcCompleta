@@ -108,7 +108,7 @@ namespace DevIO.App.Controllers
         {
             var produtoViewModel = await GetProdutoAsync(id);
 
-            if (produtoViewModel != null) return NotFound();
+            if (produtoViewModel == null) return NotFound();
 
             return View(produtoViewModel);
         }
