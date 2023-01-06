@@ -21,6 +21,21 @@ namespace DevIO.Business.Services
             _enderecoRepository = enderecoRepository;
         }
 
+        public async Task<IEnumerable<Fornecedor>> GetAllAsync()
+        {
+            return await _fornecedorRepository.GetAllAsync();
+        }
+
+        public async Task<Fornecedor> GetFornecedorEnderecoAsync(Guid id)
+        {
+            return await _fornecedorRepository.GetFornecedorEnderecoAsync(id);
+        }
+
+        public async Task<Fornecedor> GetFornecedorProdutosEnderecoAsync(Guid id)
+        {
+            return await _fornecedorRepository.GetFornecedorProdutosEnderecoAsync(id);
+        }
+
         public async Task AddAsync(Fornecedor fornecedor)
         {
             if (!Validate(new FornecedorValidator(), fornecedor) ||

@@ -12,10 +12,20 @@ namespace DevIO.Business.Services
         private readonly IProdutoRepository _produtoRepository;
 
         public ProdutoService(
-            IProdutoRepository produtoRepository, 
+            IProdutoRepository produtoRepository,
             INotifier notifier) : base(notifier)
         {
             _produtoRepository = produtoRepository;
+        }
+
+        public async Task<IEnumerable<Produto>> GetProdutosFornecedoresAsync()
+        {
+            return await _produtoRepository.GetProdutosFornecedoresAsync();
+        }
+
+        public async Task<Produto> GetProdutoFornecedorAsync(Guid id)
+        {
+            return await _produtoRepository.GetProdutoFornecedorAsync(id);
         }
 
         public async Task AddAsync(Produto produto)

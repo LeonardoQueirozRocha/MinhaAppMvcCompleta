@@ -2,7 +2,6 @@
 using DevIO.App.Controllers.Base;
 using DevIO.App.ViewModels;
 using DevIO.Business.Interfaces.Notifications;
-using DevIO.Business.Interfaces.Repository;
 using DevIO.Business.Interfaces.Services;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,17 +10,14 @@ namespace DevIO.App.Controllers
 {
     public class FornecedoresController : BaseController
     {
-        private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
 
         public FornecedoresController(
-            IFornecedorRepository fornecedorRepository,
             IFornecedorService fornecedorService,
             IMapper mapper,
             INotifier notifier) : base(notifier)
         {
-            _fornecedorRepository = fornecedorRepository;
             _fornecedorService = fornecedorService;
             _mapper = mapper;
         }
@@ -29,7 +25,7 @@ namespace DevIO.App.Controllers
         [Route("lista-de-fornecedores")]
         public async Task<IActionResult> Index()
         {
-            return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.GetAllAsync()));
+            return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorService.GetAllAsync()));
         }
 
         [Route("dados-do-fornecedor/{id:guid}")]
@@ -155,12 +151,12 @@ namespace DevIO.App.Controllers
 
         private async Task<FornecedorViewModel> GetFornecedorEndereco(Guid id)
         {
-            return _mapper.Map<FornecedorViewModel>(await _fornecedorRepository.GetFornecedorEnderecoAsync(id));
+            return _mapper.Map<FornecedorViewModel>(await _fornecedorService.GetFornecedorEnderecoAsync(id));
         }
 
         private async Task<FornecedorViewModel> GetFornecedorProdutosEndereco(Guid id)
         {
-            return _mapper.Map<FornecedorViewModel>(await _fornecedorRepository.GetFornecedorProdutosEnderecoAsync(id));
+            return _mapper.Map<FornecedorViewModel>(await _fornecedorService.GetFornecedorProdutosEnderecoAsync(id));
         }
     }
 }

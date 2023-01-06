@@ -2,7 +2,6 @@
 using DevIO.App.Controllers.Base;
 using DevIO.App.ViewModels;
 using DevIO.Business.Interfaces.Notifications;
-using DevIO.Business.Interfaces.Repository;
 using DevIO.Business.Interfaces.Services;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,28 +10,25 @@ namespace DevIO.App.Controllers
 {
     public class ProdutosController : BaseController
     {
-        private readonly IProdutoRepository _produtoRepository;
-        private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IProdutoService _produtoService;
+        private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
 
         public ProdutosController(
-            IProdutoRepository produtoRepository,
-            IFornecedorRepository fornecedorRepository,
             IProdutoService produtoService,
+            IFornecedorService fornecedorService,
             IMapper mapper,
             INotifier notifier) : base(notifier)
         {
-            _produtoRepository = produtoRepository;
-            _fornecedorRepository = fornecedorRepository;
             _produtoService = produtoService;
+            _fornecedorService = fornecedorService;
             _mapper = mapper;
         }
 
         [Route("lista-de-produtos")]
         public async Task<IActionResult> Index()
         {
-            return View(_mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.GetProdutosFornecedoresAsync()));
+            return View(_mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoService.GetProdutosFornecedoresAsync()));
         }
 
         [Route("dados-do-produto/{id:guid}")]
@@ -62,10 +58,7 @@ namespace DevIO.App.Controllers
 
             var imgPrefixo = $"{Guid.NewGuid()}_";
 
-            if (!await UploadFileAsync(produtoViewModel.ImagemUpload, imgPrefixo))
-            {
-                return View(produtoViewModel);
-            }
+            if (!await UploadFileAsync(produtoViewModel.ImagemUpload, imgPrefixo)) return View(produtoViewModel);
 
             produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
 
@@ -151,14 +144,14 @@ namespace DevIO.App.Controllers
 
         private async Task<ProdutoViewModel> GetProdutoAsync(Guid id)
         {
-            var produtoViewModel = _mapper.Map<ProdutoViewModel>(await _produtoRepository.GetProdutoFornecedorAsync(id));
-            produtoViewModel.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.GetAllAsync());
+            var produtoViewModel = _mapper.Map<ProdutoViewModel>(await _produtoService.GetProdutoFornecedorAsync(id));
+            produtoViewModel.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorService.GetAllAsync());
             return produtoViewModel;
         }
 
         private async Task<ProdutoViewModel> FillFornecedoresAsync(ProdutoViewModel produtoViewModel)
         {
-            produtoViewModel.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.GetAllAsync());
+            produtoViewModel.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorService.GetAllAsync());
             return produtoViewModel;
         }
 
