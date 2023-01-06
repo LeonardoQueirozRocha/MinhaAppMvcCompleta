@@ -7,10 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Services\" />
-    <Folder Include="Services\" />
-    <Folder Include="Validations\" />
-    <Folder Include="Notifications\" />
+    <Compile Remove="Notifications\**" />
+    <EmbeddedResource Remove="Notifications\**" />
+    <None Remove="Notifications\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
   </ItemGroup>
 
 </Project>
