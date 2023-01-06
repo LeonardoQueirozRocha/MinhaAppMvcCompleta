@@ -2,7 +2,7 @@
 
 namespace DevIO.Business.Interfaces.Services
 {
-    public interface IFornecedorService
+    public interface IFornecedorService : IDisposable
     {
         Task AddAsync(Fornecedor fornecedor);
         Task UpdateAsync(Fornecedor fornecedor);
