@@ -1,4 +1,4 @@
-﻿using DevIO.App.Extensions;
+﻿using DevIO.App.Extensions.Attributes;
 using DevIO.Business.Interfaces.Notifications;
 using DevIO.Business.Interfaces.Repository;
 using DevIO.Business.Interfaces.Services;

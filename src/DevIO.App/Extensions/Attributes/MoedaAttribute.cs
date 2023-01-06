@@ -4,7 +4,7 @@ using Microsoft.Extensions.Localization;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace DevIO.App.Extensions
+namespace DevIO.App.Extensions.Attributes
 {
     public class MoedaAttribute : ValidationAttribute
     {

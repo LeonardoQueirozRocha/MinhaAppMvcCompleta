@@ -1,4 +1,4 @@
-﻿using DevIO.App.Extensions;
+﻿using DevIO.App.Extensions.Attributes;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

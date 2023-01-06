@@ -1,7 +1,7 @@
 ﻿using DevIO.Business.Interfaces.Notifications;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DevIO.App.Extensions
+namespace DevIO.App.Extensions.ViewComponents
 {
     public class SummaryViewComponent : ViewComponent
     {
