@@ -20,13 +20,13 @@ var app = builder.Build();
 // Configure
 if (app.Environment.IsDevelopment())
 {
-    app.UseMigrationsEndPoint();
+    app.UseDeveloperExceptionPage();
     app.UseMigrationsEndPoint();
 }
 else
 {
     app.UseExceptionHandler("/erro/500");
-    app.UseStatusCodePagesWithRedirects("erro/{0}");
+    app.UseStatusCodePagesWithRedirects("/erro/{0}");
     app.UseHsts();
 }
 
